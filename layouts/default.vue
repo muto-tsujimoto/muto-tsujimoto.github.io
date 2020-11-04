@@ -44,7 +44,7 @@ body {
   background: #f0f2f5;
 }
 #main {
-  padding: 60px 18px 18px 300px;
+  padding: 60px 18px 60px 300px;
 }
 #sidebar{
   background: #f0f2f5;
@@ -55,7 +55,7 @@ body {
 }
 @media screen and (max-width: 759px){
   #main {
-  padding: 60px 18px 18px 18px;
+  padding: 60px 18px 60px 18px;
   }
   #sidebar {
     transition: all 0.2s;
