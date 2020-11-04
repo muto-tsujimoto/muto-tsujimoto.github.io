@@ -7,7 +7,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'Muto Tsujimoto',
+    title: 'hello',
     titleTemplate: '%s | Muto Tsujimoto',
     meta: [
       { charset: 'utf-8' },
