@@ -15,8 +15,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;900&family=Roboto+Mono:wght@400;700&display=swap' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
 
@@ -56,9 +55,15 @@ export default {
         vueI18nLoader: true,
         lazy: true
       }
-    ]
+    ],
+    'nuxt-webfontloader'
   ],
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+  webfontloader: {
+    google: {
+      families: ['Noto+Sans+JP:wght@400;900', 'Roboto+Mono:wght@400;700']
+    }
   }
 }
