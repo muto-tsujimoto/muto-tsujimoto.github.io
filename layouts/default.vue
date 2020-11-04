@@ -27,6 +27,9 @@ export default Vue.extend({
       }
     }
   },
+  mounted () {
+    (console as any).log('ソースコードに興味を持って頂きありがとうございます。\r\nこのWebサイトはNuxt.jsで制作しました。\r\n過去の制作物は/worksに掲載しておりますので、ぜひご覧ください。')
+  },
   methods: {
     toggleSidebar (): void {
       this.isOpened = !this.isOpened
