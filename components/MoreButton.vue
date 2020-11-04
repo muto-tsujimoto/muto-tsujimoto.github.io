@@ -5,15 +5,6 @@
     </nuxt-link>
     <div class="arrow">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.47 4.53">
-        <defs>
-          <style>
-            .cls-1 {
-            fill: none;
-            stroke: #231815;
-            stroke-miterlimit: 10;
-            }
-          </style>
-        </defs>
         <line class="cls-1" y1="4.03" x2="28.35" y2="4.03" />
         <line class="cls-1" x1="14.17" y1="0.49" x2="28.35" y2="4.03" />
       </svg>
@@ -50,5 +41,10 @@ export default Vue.extend({
 a {
   text-decoration: none;
   color: #0f2540;
+}
+.cls-1 {
+  fill: none;
+  stroke: #231815;
+  stroke-miterlimit: 10;
 }
 </style>
