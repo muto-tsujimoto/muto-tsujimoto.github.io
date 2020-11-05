@@ -55,7 +55,7 @@ body {
   padding: 60px 18px 60px 18px;
   }
   #sidebar {
-    transition: all 300ms cubic-bezier(1.000, 0.000, 0.525, 1.005);
+    transition: all 300ms cubic-bezier(1, 0, 0.53, 1);
     left: -100%;
     width: 100%;
   }
@@ -64,7 +64,7 @@ body {
     left: 0;
   }
   #button {
-    transition: all 0.3s;
+    transition: all 300ms cubic-bezier(1, 0, 0.53, 1);
     background: #ffffff;
     border: 1px solid #0f2540;
     border-radius: 2px;
