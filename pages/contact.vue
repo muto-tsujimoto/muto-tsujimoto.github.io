@@ -27,7 +27,7 @@ span{
   margin-top: 8px;
 }
 .mail a{
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: underline;
 }
 </style>

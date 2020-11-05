@@ -108,6 +108,7 @@ export default Vue.extend({
   height: 23px;
   line-height: 19px;
   border: 1px solid #6f7c8c;
+  border-radius: 2px;
   padding: 0 8px 0 8px;
 }
 .tag span {

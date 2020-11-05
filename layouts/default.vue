@@ -70,6 +70,7 @@ body {
     transition: all 0.3s;
     background: #ffffff;
     border: 1px solid #0f2540;
+    border-radius: 2px;
     width: 40px;
     height: 40px;
     top: 10px;
@@ -80,20 +81,20 @@ body {
   }
   .line {
     transition: all 0.3s;
-    width: 26px;
+    width: 22px;
     height: 1px;
-    left: 6px;
+    left: 8px;
     background-color: #0f2540;
     position: absolute;
   }
   .l1 {
-    top: 12px;
+    top: 13px;
   }
   .l2 {
     top: 19px;
   }
   .l3 {
-    top: 26px;
+    top: 25px;
   }
   #button.opened{
     background: none;
