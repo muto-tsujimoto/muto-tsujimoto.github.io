@@ -46,7 +46,7 @@ ul {
   list-style: none;
 }
 .content {
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Roboto Mono', -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   padding: 10px 0 10px 0;
 }
 a.text {

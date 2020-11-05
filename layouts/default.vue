@@ -37,7 +37,7 @@ export default Vue.extend({
 
 <style>
 body {
-  font-family: 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   background: #f0f2f5;
 }
 #main {
