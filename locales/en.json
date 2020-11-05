@@ -61,7 +61,7 @@
             "thumbnail": "thumbnail/thumbnail_1.png",
             "title": "Operator Call App",
             "tags": [
-                "Tablet",
+                "Mobile",
                 "GPS"
             ],
             "description": "Call the forklift operator when the product is ready to be unloaded. By recording \"who\" called \"when\" and \"where\" in the database so that the operator can check it immediately, the waste of transportation work has been greatly reduced.",
@@ -145,21 +145,18 @@
             {
                 "heading": "Nice to meet you",
                 "texts": [
-                    "My parents gave me a computer when I was in the fourth grade, and that's how I got my start.",
-                    "I am self-taught in programming and web design.",
-                    "At my current company, I'm the only systems person in my department, developing and designing systems on my own.",
-                    "I am often in charge of system-related hardware, such as interactive devices using the Raspberry Pi and",
-                    "We have produced sensor I/O devices using PLCs and have been promoting the IoT of production sites.",
-                    "You can see our products on \"works\" page which has been approved by the company."
+                    "I've been learning programming and web design on my own, starting with my parents giving me a computer when I was in fourth grade.",
+                    "At the company I am currently working for, I am the only system engineer in my department, and I develop and design systems alone.",
+                    "I have often been in charge of system-related hardware, producing interactive devices using the Raspberry Pi and sensor I/O devices using PLCs to promote IoT at production sites.",
+                    "Some of the works that have been approved by the company are posted on the \"works\" page."
                 ]
             },
             {
                 "heading": "Special skill",
                 "texts": [
                     "It's about finding a problem and developing a full stack of systems and apps that lead to a solution.",
-                    "In my current role, I do the total process from planning conception, requirements definition, design, development, and release.",
-                    "As this is a one-man job, I also maintain what I have developed in the past, but",
-                    "By conducting unit tests and preparing manuals for troubleshooting and other tasks in advance, we are able to reduce response costs."
+                    "In my current job, I do a total of planning, requirements definition, design and development, and then release the product.",
+                    "Since this is a one-man operation, we also maintain things we have developed in the past by ourselves, but we do unit tests in advance and prepare manuals for troubleshooting, etc. to reduce the cost of response."
                 ]
             }
         ],
