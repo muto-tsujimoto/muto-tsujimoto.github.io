@@ -40,7 +40,7 @@ export default Vue.extend({
 
 <style>
 body {
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体', sans-serif;
   background: #f0f2f5;
 }
 #main {

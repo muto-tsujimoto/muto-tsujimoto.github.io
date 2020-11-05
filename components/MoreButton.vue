@@ -30,7 +30,7 @@ export default Vue.extend({
 
 <style>
 .button-content {
-  font-family: 'Roboto Mono','Noto Sans JP';
+  font-family: 'Roboto Mono','Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体';
   font-size: 12px;
   display: flex;
 }

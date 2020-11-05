@@ -20,7 +20,7 @@ export default Vue.extend({
 
 <style scoped>
 .text {
-  font-family: 'Roboto Mono','Noto Sans JP';
+  font-family: 'Roboto Mono','Yu Gothic Medium', '游ゴシック Medium', 'YuGothic', '游ゴシック体';
   margin-top: 8px;
   margin-bottom: 20px;
   position: relative;

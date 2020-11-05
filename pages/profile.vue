@@ -51,7 +51,7 @@ export default Vue.extend({
   margin-top: 50px;
   color: #0f2540;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 26px;
 }
 .content-box .title {
   width: 140px;

@@ -63,7 +63,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ['Noto+Sans+JP:wght@400;900', 'Roboto+Mono:wght@400;700']
+      families: ['Roboto+Mono:wght@400;700']
     }
   }
 }
