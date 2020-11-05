@@ -101,7 +101,6 @@ export default Vue.extend({
 .tag-box {
   display: flex;
   margin-top: 3px;
-  margin-left: 10px;
 }
 .tag {
   margin-left: 10px;
