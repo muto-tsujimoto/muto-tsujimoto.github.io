@@ -63,7 +63,7 @@ export default {
   },
   webfontloader: {
     google: {
-      families: ['Roboto+Mono:wght@400;700']
+      families: ['Roboto+Mono:wght@400;700&display=swap']
     }
   }
 }
