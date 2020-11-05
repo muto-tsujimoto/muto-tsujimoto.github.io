@@ -168,11 +168,11 @@
                     "data": "C#, Java, Python, Typescript, Javascript, Dart, SQL, HTML, CSS"
                 },
                 {
-                    "title": "バックエンドフレームワーク",
+                    "title": "バックエンド",
                     "data": ".NET Core, ASP.NET Core, FastAPI, Flask"
                 },
                 {
-                    "title": "フロントエンドフレームワーク",
+                    "title": "フロントエンド",
                     "data": "Vue.js, Nuxt.js, Flutter, Blazor"
                 },
                 {
