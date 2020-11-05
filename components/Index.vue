@@ -29,7 +29,7 @@ export default Vue.extend({
   position: relative;
   color: #0f2540;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 300;
 }
 .text::before {
   content: "";
