@@ -168,11 +168,11 @@
                     "data": "C#, Java, Python, Typescript, Javascript, Dart, SQL, HTML, CSS"
                 },
                 {
-                    "title": "バックエンド",
+                    "title": "バックエンド Fw",
                     "data": ".NET Core, ASP.NET Core, FastAPI, Flask"
                 },
                 {
-                    "title": "フロントエンド",
+                    "title": "フロントエンド Fw",
                     "data": "Vue.js, Nuxt.js, Flutter, Blazor"
                 },
                 {
