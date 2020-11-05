@@ -1,7 +1,7 @@
 <template>
   <div>
     <Hello />
-    <Index class="index" text="Latest works" />
+    <Index text="Latest works" />
     <CardsGrid :cards="cards" :cards-number="3" :show-details="false" />
     <MoreButton
       title="goto works"
@@ -29,9 +29,6 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.index {
-  margin-top: 40px;
-}
 .more-button {
   margin-top: 14px;
 }

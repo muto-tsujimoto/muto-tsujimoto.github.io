@@ -19,10 +19,8 @@
 </template>
 
 <style scoped>
-.hello {
-  position: relative;
+.hello{
   max-width: 700px;
-  padding-bottom: 20px;
 }
 .text {
   margin-bottom: 10px;
@@ -37,9 +35,7 @@
   font-size: 20px;
 }
 .more-button {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  margin-top: 14px;
 }
 span {
   color: #0f2540;
