@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <img
-      :src="require('~/assets/' + thumbnail)"
+      v-lazy="require('~/assets/' + thumbnail)"
       alt="thumbnail"
       class="image"
     >

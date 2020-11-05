@@ -58,7 +58,7 @@ body {
   padding: 60px 18px 60px 18px;
   }
   #sidebar {
-    transition: all 0.2s;
+    transition: all 0.1s;
     left: -100%;
     width: 100%;
   }
