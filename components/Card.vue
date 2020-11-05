@@ -76,12 +76,14 @@ export default Vue.extend({
 
 <style scoped>
 .card {
+  border-radius: 6px;
   background: #ffffff;
   max-width: 420px;
   border: 1px solid #0f2540;
   box-shadow: 3px 3px 0 0 #0f2540;
 }
 .image {
+  border-radius: 6px 6px 0 0;
   background: #6f7c8c;
 }
 .card-content {

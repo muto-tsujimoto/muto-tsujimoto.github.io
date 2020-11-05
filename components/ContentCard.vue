@@ -10,6 +10,7 @@
 
 <style scoped>
 .card {
+  border-radius: 6px;
   background: #ffffff;
   max-width: 800px;
   border: 1px solid #0f2540;
