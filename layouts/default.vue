@@ -69,7 +69,7 @@ body {
   #button {
     transition: all 0.3s;
     background: #ffffff;
-    border: 1px solid #6f7c8c;
+    border: 1px solid #0f2540;
     width: 40px;
     height: 40px;
     top: 10px;
@@ -83,7 +83,7 @@ body {
     width: 26px;
     height: 1px;
     left: 6px;
-    background-color: #6f7c8c;
+    background-color: #0f2540;
     position: absolute;
   }
   .l1 {

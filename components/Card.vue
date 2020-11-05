@@ -16,18 +16,20 @@
           </div>
         </div>
       </div>
-      <div v-if="description != ''" class="description">
-        {{ description }}
-      </div>
-      <div v-if="infomations.length > 0" class="infomations">
-        <table>
-          <tr v-for="(infomation, i) in infomations" :key="i">
-            <td class="title">
-              {{ infomation.title }}
-            </td>
-            <td>{{ infomation.data }}</td>
-          </tr>
-        </table>
+      <div v-if="showDetails" class="details">
+        <div v-if="description != ''" class="description">
+          {{ description }}
+        </div>
+        <div v-if="infomations.length > 0" class="infomation">
+          <table>
+            <tr v-for="(infomation, i) in infomations" :key="i">
+              <td class="title">
+                {{ infomation.title }}
+              </td>
+              <td>{{ infomation.data }}</td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
   </div>
@@ -62,6 +64,11 @@ export default Vue.extend({
       type: Array as PropType<Infomation[]>,
       default: [],
       required: false
+    },
+    showDetails: {
+      type: Boolean,
+      default: true,
+      required: false
     }
   }
 })
@@ -71,6 +78,8 @@ export default Vue.extend({
 .card {
   background: #ffffff;
   max-width: 420px;
+  border: 1px solid #0f2540;
+  box-shadow: 3px 3px 0 0 #0f2540;
 }
 .image {
   background: #6f7c8c;
@@ -82,21 +91,21 @@ export default Vue.extend({
   display: flex;
 }
 .text {
+  line-height: 29px;
   font-size: 16px;
   color: #0f2540;
   font-weight: 700;
 }
 .tag-box {
   display: flex;
+  margin-top: 3px;
   margin-left: 10px;
 }
 .tag {
   margin-left: 10px;
-  height: 24px;
-  line-height: 18px;
-  background: #c9e1ec;
+  height: 23px;
+  line-height: 19px;
   border: 1px solid #3a8fb7;
-  border-radius: 2px;
   padding: 0 8px 0 8px;
 }
 .tag span {
@@ -107,9 +116,9 @@ export default Vue.extend({
   line-height: 24px;
   color: #0f2540;
   font-size: 14px;
-  margin-top: 16px;
+  margin-top: 12px;
 }
-.infomations {
+.infomation {
   margin-top: 12px;
 }
 td{
@@ -117,7 +126,7 @@ td{
   color: #6f7c8c;
   vertical-align: top;
 }
-.infomations .title {
+.infomation .title {
   width: 130px;
 }
 </style>

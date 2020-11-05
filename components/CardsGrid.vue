@@ -4,6 +4,7 @@
       v-for="(card, i) in getCards(cardsNumber)"
       :key="i"
       class="item"
+      :show-details="showDetails"
       :thumbnail="card.thumbnail"
       :title="card.title"
       :tags="card.tags"
@@ -32,6 +33,11 @@ export default Vue.extend({
       type: Array as PropType<Card[]>,
       required: true
     },
+    showDetails: {
+      type: Boolean,
+      default: true,
+      required: false
+    },
     cardsNumber: {
       type: Number,
       default: -1,
@@ -56,7 +62,7 @@ export default Vue.extend({
 <style scoped>
 #cards-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(0, 420px));
+  grid-template-columns: repeat(auto-fit, minmax(0, 420px));
   justify-content: start;
   gap: 20px;
 }

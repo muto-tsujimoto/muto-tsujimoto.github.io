@@ -1,5 +1,5 @@
 <template>
-  <CardsGrid :cards="cards" />
+  <CardsGrid :cards="cards"/>
 </template>
 
 <script lang="ts">

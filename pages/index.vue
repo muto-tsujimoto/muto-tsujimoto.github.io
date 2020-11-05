@@ -2,7 +2,7 @@
   <div>
     <Hello />
     <Index class="index" text="Latest works" />
-    <CardsGrid :cards="cards" :cards-number="3" />
+    <CardsGrid :cards="cards" :cards-number="3" :show-details="false" />
     <MoreButton
       title="goto works"
       :path="localePath('/works')"
