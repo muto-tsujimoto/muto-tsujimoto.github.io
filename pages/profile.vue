@@ -8,20 +8,24 @@
     </p>
     <div v-for="(content, i) in $t('profile.contents')" :key="i" class="content-box">
       <Index :text="content.heading" />
-      <p v-for="(text, j) in content.texts" :key="j">
-        {{ text }}
-      </p>
+      <ContentCard>
+        <p v-for="(text, j) in content.texts" :key="j">
+          {{ text }}
+        </p>
+      </ContentCard>
     </div>
     <div class="content-box">
       <Index :text="$t('profile.whatICanDo.heading')" />
-      <table>
-        <tr v-for="(row, j) in $t('profile.whatICanDo.rows')" :key="j">
-          <td class="title">
-            {{ row.title }}
-          </td>
-          <td>{{ row.data }}</td>
-        </tr>
-      </table>
+      <ContentCard>
+        <table>
+          <tr v-for="(row, j) in $t('profile.whatICanDo.rows')" :key="j">
+            <td class="title">
+              {{ row.title }}
+            </td>
+            <td>{{ row.data }}</td>
+          </tr>
+        </table>
+      </ContentCard>
     </div>
   </div>
 </template>

@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <ContentCard>
     <span>{{ $t("contact") }}</span>
     <div class="mail">
       <a href="mailto:muto.tsujimoto@gmail.com">muto.tsujimoto@gmail.com</a>
     </div>
-  </div>
+  </ContentCard>
 </template>
 
 <script lang="ts">
