@@ -91,7 +91,7 @@ export default Vue.extend({
   display: flex;
 }
 .text {
-  line-height: 29px;
+  line-height: 31px;
   font-size: 16px;
   color: #0f2540;
   font-weight: 700;
@@ -105,12 +105,12 @@ export default Vue.extend({
   margin-left: 10px;
   height: 23px;
   line-height: 19px;
-  border: 1px solid #3a8fb7;
+  border: 1px solid #6f7c8c;
   padding: 0 8px 0 8px;
 }
 .tag span {
   font-size: 12px;
-  color: #3a8fb7;
+  color: #6f7c8c;
 }
 .description {
   line-height: 24px;
