@@ -7,7 +7,6 @@
       v-lazy="require('~/assets/' + thumbnail)"
       alt="thumbnail"
       class="image"
-      @load="isLoaded = true"
     >
     <div ref="card" class="card-content">
       <div class="title">
