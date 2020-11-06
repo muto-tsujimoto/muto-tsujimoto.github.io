@@ -79,6 +79,11 @@ export default Vue.extend({
     return {
       isLoaded: false
     }
+  },
+  mounted () {
+    this.$Lazyload.$on('loaded', () => {
+      this.isLoaded = true
+    })
   }
 })
 </script>
