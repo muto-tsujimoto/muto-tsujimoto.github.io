@@ -1,8 +1,5 @@
 <template>
   <div class="card">
-    <div v-if="!isLoaded" class="skeleton-wrapper">
-      <div class="skeleton" />
-    </div>
     <img
       v-lazy="require('~/assets/' + thumbnail)"
       alt="thumbnail"
@@ -73,61 +70,11 @@ export default Vue.extend({
       default: true,
       required: false
     }
-  },
-  data () {
-    return {
-      isLoaded: false
-    }
-  },
-  mounted () {
-    this.$Lazyload.$once('loaded', () => {
-      this.isLoaded = true
-    })
   }
 })
 </script>
 
 <style scoped>
-/* ----------------------- */
-.skeleton-wrapper {
-  position: relative;
-  width: 100%;
-}
-.skeleton-wrapper:before {
-  content:"";
-  display: block;
-  padding-top: 56.25%;
-}
-.skeleton{
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  border-radius: 6px 6px 0 0;
-  background: #d9d9d9;
-  overflow: hidden;
-}
-.skeleton::before{
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
-  position: absolute;
-  top: 0;
-  left: 0;
-  animation: skeleton-animation 1.2s linear infinite;
-}
-@keyframes skeleton-animation{
-  0%{
-    transform: translateX(-100%);
-  }
-  100%{
-    transform: translateX(100%);
-  }
-}
-/* ----------------------- */
 .card {
   border-radius: 6px;
   background: #ffffff;
