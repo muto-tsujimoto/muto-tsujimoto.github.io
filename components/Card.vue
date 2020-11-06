@@ -101,8 +101,6 @@ export default Vue.extend({
   bottom: 0;
   right: 0;
   border-radius: 6px 6px 0 0;
-  width: 100%;
-  height: calc(width / 16 * 9);
   background: #d9d9d9;
   overflow: hidden;
 }
