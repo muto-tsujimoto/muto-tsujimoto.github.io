@@ -84,7 +84,6 @@ export default Vue.extend({
 }
 .image {
   width: 100%;
-  height: auto;
   border-radius: 6px 6px 0 0;
   background: #6f7c8c;
 }
