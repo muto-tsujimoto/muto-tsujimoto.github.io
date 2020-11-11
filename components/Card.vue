@@ -1,5 +1,5 @@
 <template>
-  <div class="card" @click="showDetails = !showDetails">
+  <div class="card" :class="{'showed-details' : isShowedDetails}" @click="isShowedDetails = true">
     <img
       v-lazy="require('~/assets/' + thumbnail)"
       alt="thumbnail"
@@ -17,7 +17,7 @@
         </div>
       </div>
       <transition name="show">
-        <div v-if="showDetails" class="details">
+        <div v-if="isShowedDetails" class="details">
           <div v-if="description != ''" class="description">
             {{ description }}
           </div>
@@ -72,18 +72,26 @@ export default Vue.extend({
       default: true,
       required: false
     }
+  },
+  data () {
+    return {
+      isShowedDetails: this.showDetails
+    }
   }
 })
 </script>
 
 <style scoped>
 .card {
-  transition: all 300ms cubic-bezier(1, 0, 0.53, 1);
+  cursor: pointer;
   border-radius: 6px;
   background: #ffffff;
   max-width: 420px;
   border: 1px solid #0f2540;
   box-shadow: 3px 3px 0 0 #0f2540;
+}
+.card.showed-details{
+  cursor: unset;
 }
 .image {
   border-radius: 6px 6px 0 0;
@@ -133,11 +141,5 @@ td{
 }
 .infomation .title {
   width: 130px;
-}
-.show-enter-active, .show-leave-active {
-  transition: opacity 300ms;
-}
-.show-enter, .show-leave-to {
-  opacity: 0;
 }
 </style>
