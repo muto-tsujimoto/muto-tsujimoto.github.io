@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card" @click="showDetails = !showDetails">
     <img
       v-lazy="require('~/assets/' + thumbnail)"
       alt="thumbnail"
@@ -16,21 +16,23 @@
           </div>
         </div>
       </div>
-      <div v-if="showDetails" class="details">
-        <div v-if="description != ''" class="description">
-          {{ description }}
+      <transition name="show">
+        <div v-if="showDetails" class="details">
+          <div v-if="description != ''" class="description">
+            {{ description }}
+          </div>
+          <div v-if="infomations.length > 0" class="infomation">
+            <table>
+              <tr v-for="(infomation, i) in infomations" :key="i">
+                <td class="title">
+                  {{ infomation.title }}
+                </td>
+                <td>{{ infomation.data }}</td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div v-if="infomations.length > 0" class="infomation">
-          <table>
-            <tr v-for="(infomation, i) in infomations" :key="i">
-              <td class="title">
-                {{ infomation.title }}
-              </td>
-              <td>{{ infomation.data }}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -76,6 +78,7 @@ export default Vue.extend({
 
 <style scoped>
 .card {
+  transition: all 300ms cubic-bezier(1, 0, 0.53, 1);
   border-radius: 6px;
   background: #ffffff;
   max-width: 420px;
@@ -130,5 +133,11 @@ td{
 }
 .infomation .title {
   width: 130px;
+}
+.show-enter-active, .show-leave-active {
+  transition: opacity 300ms;
+}
+.show-enter, .show-leave-to {
+  opacity: 0;
 }
 </style>
