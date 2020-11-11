@@ -154,9 +154,9 @@
             {
                 "heading": "Special skill",
                 "texts": [
-                    "It's about finding a problem and developing a full stack of systems and apps that lead to a solution.",
-                    "In my current job, I do a total of planning, requirements definition, design and development, and then release the product.",
-                    "Since this is a one-man operation, we also maintain things we have developed in the past by ourselves, but we do unit tests in advance and prepare manuals for troubleshooting, etc. to reduce the cost of response."
+                    "My specialty is finding problems and developing full-stack systems and applications that lead to solutions.",
+                    "In my current job, I do the total process from planning and conception to requirements definition, design and development, and then release the system.",
+                    "The systems operate in a variety of ways, but I am working on cloud-native development as well as on-premise, depending on the project."
                 ]
             }
         ],
@@ -164,19 +164,19 @@
             "heading": "Skills",
             "rows": [
                 {
-                    "title": "Languages",
+                    "title": "Language",
                     "data": "C#, Java, Python, Typescript, Javascript, Dart, SQL, HTML, CSS"
                 },
                 {
-                    "title": "Back-end",
+                    "title": "Back-end Fw",
                     "data": ".NET Core, ASP.NET Core, FastAPI, Flask"
                 },
                 {
-                    "title": "Front-end",
+                    "title": "Front-end Fw",
                     "data": "Vue.js, Nuxt.js, Flutter, Blazor"
                 },
                 {
-                    "title": "Databases",
+                    "title": "Database",
                     "data": "MySQL, SQL Server"
                 },
                 {
@@ -184,15 +184,15 @@
                     "data": "CentOS, Apple macOS, Microsoft Windows Server"
                 },
                 {
-                    "title": "Cloud Platforms",
-                    "data": "Amazon Web Service, Google Cloud Platform"
+                    "title": "Cloud Platform",
+                    "data": "AWS, GCP"
                 },
                 {
-                    "title": "Tests",
+                    "title": "Test",
                     "data": "Unit Test Design, Test-Driven Development"
                 },
                 {
-                    "title": "Others",
+                    "title": "Other",
                     "data": "Designing the REST API"
                 },
                 {
