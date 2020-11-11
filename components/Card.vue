@@ -83,7 +83,6 @@ export default Vue.extend({
   box-shadow: 3px 3px 0 0 #0f2540;
 }
 .image {
-  width: 100%;
   border-radius: 6px 6px 0 0;
   background: #6f7c8c;
 }
