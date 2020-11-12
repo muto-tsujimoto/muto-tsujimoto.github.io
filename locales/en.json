@@ -32,7 +32,7 @@
         },
         {
             "thumbnail": "thumbnail/thumbnail_2.png",
-            "title": "Progress Management System",
+            "title": "Progress Management App",
             "tags": [
                 "SPA",
                 "WebSocket"
@@ -45,7 +45,7 @@
                 },
                 {
                     "title": "Languages",
-                    "data": "C#, SQL, Typescript, HTML, CSS, Ladder logic"
+                    "data": "C#, SQL, Typescript, HTML, CSS"
                 },
                 {
                     "title": "Frameworks",
@@ -99,7 +99,7 @@
                 },
                 {
                     "title": "Languages",
-                    "data": "C#, SQL"
+                    "data": "C#, SQL, Ladder logic"
                 },
                 {
                     "title": "Frameworks",

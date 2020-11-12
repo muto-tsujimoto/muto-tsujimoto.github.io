@@ -32,7 +32,7 @@
         },
         {
             "thumbnail": "thumbnail/thumbnail_2.png",
-            "title": "進捗管理システム",
+            "title": "進捗管理アプリ",
             "tags": [
                 "SPA",
                 "WebSocket"
@@ -45,7 +45,7 @@
                 },
                 {
                     "title": "言語",
-                    "data": "C#, SQL, Typescript, HTML, CSS, ラダー"
+                    "data": "C#, SQL, Typescript, HTML, CSS"
                 },
                 {
                     "title": "フレームワーク",
@@ -99,7 +99,7 @@
                 },
                 {
                     "title": "言語",
-                    "data": "C#, SQL"
+                    "data": "C#, SQL, ラダー"
                 },
                 {
                     "title": "フレームワーク",
