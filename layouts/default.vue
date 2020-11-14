@@ -77,7 +77,7 @@ body {
     z-index: 999;
   }
   .line {
-    transition: all 0.3s;
+    transition: all 300ms cubic-bezier(1, 0, 0.53, 1);
     width: 22px;
     height: 1px;
     left: 8px;

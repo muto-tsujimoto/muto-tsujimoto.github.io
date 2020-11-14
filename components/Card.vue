@@ -1,11 +1,11 @@
 <template>
-  <div class="card">
+  <div class="card" :class="{'showed-details' : isShowedDetails}" @click="isShowedDetails = true">
     <img
       v-lazy="require('~/assets/' + thumbnail)"
       alt="thumbnail"
       class="image"
     >
-    <div class="card-content">
+    <div ref="card" class="card-content">
       <div class="title">
         <span class="text">
           {{ title }}
@@ -16,21 +16,23 @@
           </div>
         </div>
       </div>
-      <div v-if="showDetails" class="details">
-        <div v-if="description != ''" class="description">
-          {{ description }}
+      <transition name="show">
+        <div v-if="isShowedDetails" class="details">
+          <div v-if="description != ''" class="description">
+            {{ description }}
+          </div>
+          <div v-if="infomations.length > 0" class="infomation">
+            <table>
+              <tr v-for="(infomation, i) in infomations" :key="i">
+                <td class="title">
+                  {{ infomation.title }}
+                </td>
+                <td>{{ infomation.data }}</td>
+              </tr>
+            </table>
+          </div>
         </div>
-        <div v-if="infomations.length > 0" class="infomation">
-          <table>
-            <tr v-for="(infomation, i) in infomations" :key="i">
-              <td class="title">
-                {{ infomation.title }}
-              </td>
-              <td>{{ infomation.data }}</td>
-            </tr>
-          </table>
-        </div>
-      </div>
+      </transition>
     </div>
   </div>
 </template>
@@ -70,17 +72,26 @@ export default Vue.extend({
       default: true,
       required: false
     }
+  },
+  data () {
+    return {
+      isShowedDetails: this.showDetails
+    }
   }
 })
 </script>
 
 <style scoped>
 .card {
+  cursor: pointer;
   border-radius: 6px;
   background: #ffffff;
   max-width: 420px;
   border: 1px solid #0f2540;
   box-shadow: 3px 3px 0 0 #0f2540;
+}
+.card.showed-details{
+  cursor: unset;
 }
 .image {
   border-radius: 6px 6px 0 0;

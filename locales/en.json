@@ -32,12 +32,12 @@
         },
         {
             "thumbnail": "thumbnail/thumbnail_2.png",
-            "title": "Progress Management System",
+            "title": "Progress Management App",
             "tags": [
                 "SPA",
                 "WebSocket"
             ],
-            "description": "By displaying the data acquired from the \"progress data collection system\" as a table or graph on the browser, anyone can easily grasp the progress and abnormalities. By using WebSocket to receive progress data, the latest data is always displayed.",
+            "description": "By displaying the data acquired from sensors in the factory as a table or graph in the browser, anyone can easily grasp the progress and abnormality. By using WebSocket to receive the progress data, the latest data is always displayed.",
             "infomations": [
                 {
                     "title": "Developed on",
@@ -45,7 +45,7 @@
                 },
                 {
                     "title": "Languages",
-                    "data": "C#, SQL, Typescript, HTML, CSS, Ladder logic"
+                    "data": "C#, SQL, Typescript, HTML, CSS"
                 },
                 {
                     "title": "Frameworks",
@@ -64,7 +64,7 @@
                 "Mobile",
                 "GPS"
             ],
-            "description": "Call the forklift operator when the product is ready to be unloaded. By recording \"who\" called \"when\" and \"where\" in the database so that the operator can check it immediately, the waste of transportation work has been greatly reduced.",
+            "description": "When a product is ready to be taken out, the forklift operator is called up. The \"who\", \"when\" and \"where\" are recorded in the database so that the operator can immediately check the information, greatly reducing waste in transportation operations.",
             "infomations": [
                 {
                     "title": "Developed on",
@@ -91,7 +91,7 @@
                 "Console",
                 "TCP/IP"
             ],
-            "description": "Communicate with PLC (programmable logic controller) in the factory using Socket. Reads the value of the sensor connected to the PLC and writes it to the database. By performing processing asynchronously, it is possible to acquire data in a 100ms cycle.",
+            "description": "Communicates with a PLC (programmable logic controller) in the factory using a socket to read the value of the sensor connected to the PLC and write it to the database. Asynchronous processing makes it possible to acquire data in 100ms cycles.",
             "infomations": [
                 {
                     "title": "Developed on",
@@ -99,7 +99,7 @@
                 },
                 {
                     "title": "Languages",
-                    "data": "C#, SQL"
+                    "data": "C#, SQL, Ladder logic"
                 },
                 {
                     "title": "Frameworks",
@@ -117,7 +117,7 @@
             "tags": [
                 "Desktop"
             ],
-            "description": "We have built a system that can complete clerical processing related to design work such as management of drawings and property information, output of forms, recording of processing time, and calculation of productivity. Not only does it reduce the wasted time that occurs each time, but it also enables clear management.",
+            "description": "This system is designed to complete administrative processes related to design work, such as the management of drawings and property information, the output of forms, the recording of processing time, and the calculation of productivity. The system not only reduces the amount of time wasted each time, but also allows for more efficient management.",
             "infomations": [
                 {
                     "title": "Developed on",
@@ -154,9 +154,9 @@
             {
                 "heading": "Special skill",
                 "texts": [
-                    "It's about finding a problem and developing a full stack of systems and apps that lead to a solution.",
-                    "In my current job, I do a total of planning, requirements definition, design and development, and then release the product.",
-                    "Since this is a one-man operation, we also maintain things we have developed in the past by ourselves, but we do unit tests in advance and prepare manuals for troubleshooting, etc. to reduce the cost of response."
+                    "My specialty is finding problems and developing full-stack systems and applications that lead to solutions.",
+                    "In my current job, I am responsible for the total process of planning, requirements definition, design, development, and system release.",
+                    "There are various ways to operate the system, but depending on the project, I am good at flexible operation, using not only on-premise but also in the cloud."
                 ]
             }
         ],
@@ -164,7 +164,7 @@
             "heading": "Skills",
             "rows": [
                 {
-                    "title": "Languages",
+                    "title": "Language",
                     "data": "C#, Java, Python, Typescript, Javascript, Dart, SQL, HTML, CSS"
                 },
                 {
@@ -176,7 +176,7 @@
                     "data": "Vue.js, Nuxt.js, Flutter, Blazor"
                 },
                 {
-                    "title": "Databases",
+                    "title": "Database",
                     "data": "MySQL, SQL Server"
                 },
                 {
@@ -184,15 +184,15 @@
                     "data": "CentOS, Apple macOS, Microsoft Windows Server"
                 },
                 {
-                    "title": "Cloud Platforms",
-                    "data": "Amazon Web Service, Google Cloud Platform"
+                    "title": "Cloud Platform",
+                    "data": "AWS, GCP"
                 },
                 {
-                    "title": "Tests",
+                    "title": "Test",
                     "data": "Unit Test Design, Test-Driven Development"
                 },
                 {
-                    "title": "Others",
+                    "title": "Other",
                     "data": "Designing the REST API"
                 },
                 {
