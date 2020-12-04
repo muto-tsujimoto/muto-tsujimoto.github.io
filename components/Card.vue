@@ -88,7 +88,7 @@ export default Vue.extend({
   background: #ffffff;
   max-width: 420px;
   border: 1px solid #0f2540;
-  box-shadow: 3px 3px 0 0 #0f2540;
+  box-shadow: 4px 4px 0 0 #0f2540;
 }
 .card.showed-details{
   cursor: unset;
