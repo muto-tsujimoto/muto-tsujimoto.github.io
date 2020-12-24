@@ -36,6 +36,24 @@ export default Vue.extend({
 </script>
 
 <style>
+/* ******************************* */
+.page-enter-active {
+  transition: all 0.3s ease;
+}
+.page-leave-active {
+  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+.page-enter {
+  transform: translateX(-10px);
+}
+.page-leave-to {
+  transform: translateX(10px);
+}
+/* ******************************* */
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
   background: #f0f2f5;
