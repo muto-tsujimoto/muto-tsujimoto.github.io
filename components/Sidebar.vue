@@ -7,7 +7,7 @@
     </nuxt-link>
     <Navigation />
     <span id="copyright">
-      © 2020 Muto Tsujimoto
+      © 2020- Muto Tsujimoto
     </span>
   </div>
 </template>
