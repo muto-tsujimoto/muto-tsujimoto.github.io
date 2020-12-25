@@ -145,18 +145,17 @@
             {
                 "heading": "Nice to meet you",
                 "texts": [
-                    "I've been learning programming and web design on my own, starting with my parents giving me a computer when I was in fourth grade.",
-                    "At the company I am currently working for, I am the only system engineer in my department, and I develop and design systems alone.",
-                    "I have often been in charge of system-related hardware, producing interactive devices using the Raspberry Pi and sensor I/O devices using PLCs to promote IoT at production sites.",
-                    "Some of the works that have been approved by the company are posted on the \"works\" page."
+                    "I have been learning programming on my own since my parents gave me a computer when I was in the fourth grade. In my current position, I am the only system staff member in my department, and I develop and design systems by myself.",
+                    "I am confident in my flexibility to respond to situations, and I have been able to work according to the situation at hand without being bound by fixed concepts. For example, when developing a system to be used at a manufacturing site, we often hear the \"voice of the craftsman\" and in some cases we are able to suggest methods that we have not thought of, while in other cases we are not able to answer the specific job description or specifications. While consulting with my supervisor and colleagues depending on the situation, I have been careful to delve into the matter myself and take the best course of action.",
+                    "In terms of technology, I have always maintained an attitude of catching up by proactively adopting new technologies, selecting the language and technology to be used according to the requirements and development time, and deploying them in a microservices manner to improve productivity.",
+                    "I hope to be able to solve problems as an engineer who can quickly learn languages and technologies in any environment and make a deep commitment to the users.",
+                    "Please take a look at our \"works\" page to see what we have created with the permission of the company."
                 ]
             },
             {
                 "heading": "Special skill",
                 "texts": [
-                    "My specialty is finding problems and developing full-stack systems and applications that lead to solutions.",
-                    "In my current job, I am responsible for the total process of planning, requirements definition, design, development, and system release.",
-                    "There are various ways to operate the system, but depending on the project, I am good at flexible operation, using not only on-premise but also in the cloud."
+                    "I specialize in finding problems and developing full-stack systems and applications that lead to solutions. In my current position, I do everything from planning and conceptualization to requirements definition, design, development, and system release. The operation of the developed system varies, but I am also good at flexible operation, adopting cloud as well as on-premise depending on the requirements."
                 ]
             }
         ],
