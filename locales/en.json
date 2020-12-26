@@ -1,6 +1,7 @@
 {
     "hello": {
         "title": "It is Muto Tsujimoto.",
+        "svg": "hello/en.svg",
         "message": "I am working on the systems and apps, which can solve the problems to make the users much more comfortable."
     },
     "cards": [

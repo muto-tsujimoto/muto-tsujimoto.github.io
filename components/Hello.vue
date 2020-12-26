@@ -2,7 +2,11 @@
   <div class="hello">
     <div class="text">
       <span class="title">
-        {{ $t("hello.title") }}
+        <img
+          :src="require('~/assets/' + $t('hello.svg'))"
+          :alt="$t('hello.title')"
+          class="svg"
+        />
       </span>
     </div>
     <div class="text">
@@ -19,16 +23,18 @@
 </template>
 
 <style scoped>
-.hello{
+.svg {
+  height: 42px;
+  background: linear-gradient(transparent 60%, #7db9de 60%);
+}
+#title {
+  fill: #0f2540;
+}
+.hello {
   max-width: 700px;
 }
 .text {
   margin-bottom: 10px;
-}
-.title {
-  background: linear-gradient(transparent 40%, #7db9de 40%);
-  font-weight: 700;
-  font-size: 22px;
 }
 .description {
   background: linear-gradient(transparent 40%, #ffffff 40%);
