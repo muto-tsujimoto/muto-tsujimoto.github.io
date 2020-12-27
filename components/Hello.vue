@@ -24,7 +24,7 @@
 
 <style scoped>
 .svg {
-  height: 42px;
+  height: 50px;
   background: linear-gradient(transparent 60%, #7db9de 60%);
 }
 #title {
